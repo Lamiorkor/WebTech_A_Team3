@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<div class="wholePage">
+    <div class="signIn">
+        <div class="welcome">
+            <p class="text">
+                <span class="letter letter1">A</span>
+                <span class="letter letter2">s</span>
+                <span class="letter letter3">B</span>
+                <span class="letter letter4">e</span>
+                <span class="letter letter5">D</span>
+                <span class="letter letter6">.</span>
+                <span class="letter letter7">.</span>
+                <span class="letter letter8">.</span>
+                <span class="letter letter9">.</span>
+                <span class="letter letter10">.</span>
+                </p>
+        </div>
+        <div class="logo"></div>
+        <form action = "" method="post" name="signIn" id="signIn" >
+            <label for="email">email</label>
+           <br>
+            <input placeholder="email@mail.com" type="email" id="email" name ="email" required/>
+            <br>
+            <label for="password">password</label>
+            <br>
+            <input placeholder="password" type="password" id = "password" name ="password" pattern="[a-zA-Z0-9]+[0,9]*">
+            <br>
+            <a href="dashboard.html"><input name = "signin" type="button" id = "login" value="LOGIN"></a>
+        </form>
+        <!-- Add link to sign up -->
+        <div class="subs">Do not have an account? <a href="register.html">REGISTER</a></div>
+
+    </div>   
+</div>
+<body>
+    <script src = "index.js"></script>
+</body>
+</html>
