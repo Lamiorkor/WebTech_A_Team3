@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Reports Form</title>
+  <link rel="stylesheet" href="..\css\request.css">
+</head>
+<body>
+    <button class="open-button" onclick="openForm()">addForm</button>
+      <!-- The form -->
+  <div class="form-popup" id="myForm">
+    <form action="" class="form-container">
+      <h1>request</h1>
+      <div class="bio">
+        <input type="text" id="Name" placeholder = "Enter your name" name="Name" required>
+        <input type="text" id="roomNumber"  placeholder="Enter your  room number" name="roomNumber" required>
+        <input type="tel" id="contactNumber" placeholder ="Enter your phonenumber" name="contactNumber" required>
+      </div>
+      <div class="newSection">
+        <div class="date">
+        <label for="reportDate">Date of Report:</label>
+        <input type="date" id="reportDate" name="reportDate" required>
+        </div>
+        <div class="urgent">
+            <label for="urgencyLevel">Urgency Level:</label>
+            <input type="radio" id="low" name="urgencyLevel" value="Low" required>
+            <label for="low">Low</label>
+            <input type="radio" id="medium" name="urgencyLevel" value="Medium">
+            <label for="medium">Medium</label>
+            <input type="radio" id="high" name="urgencyLevel" value="High">
+            <label for="high">High</label>
+        </div>  
+    </div>
+    <div class="lsection">
+        <textarea id="issueDescription" name="issueDescription" placeholder="Please, enter a decription of your request.........." rows="4" cols="50" required></textarea>
+      </div>
+    </form>
+  </div>
+  <script>
+    function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+  </script>
+
+</body>
+</html>
