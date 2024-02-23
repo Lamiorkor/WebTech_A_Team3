@@ -3,43 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGN IN</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="css\index.css">
 </head>
-<div class="wholePage">
-    <div class="signIn">
-        <div class="welcome">
-            <p class="text">
-                <span class="letter letter1">A</span>
-                <span class="letter letter2">s</span>
-                <span class="letter letter3">B</span>
-                <span class="letter letter4">e</span>
-                <span class="letter letter5">D</span>
-                <span class="letter letter6">.</span>
-                <span class="letter letter7">.</span>
-                <span class="letter letter8">.</span>
-                <span class="letter letter9">.</span>
-                <span class="letter letter10">.</span>
-                </p>
-        </div>
-        <div class="logo"></div>
-        <form action = "" method="post" name="signIn" id="signIn" >
-            <label for="email">email</label>
-           <br>
-            <input placeholder="email@mail.com" type="email" id="email" name ="email" required/>
-            <br>
-            <label for="password">password</label>
-            <br>
-            <input placeholder="password" type="password" id = "password" name ="password" pattern="[a-zA-Z0-9]+[0,9]*">
-            <br>
-            <a href="../view/dashboard.html"><input name = "signin" type="button" id = "login" value="LOGIN"></a>
-        </form>
-        <!-- Add link to sign up -->
-        <div class="subs">Do not have an account? <a href="register.html">REGISTER</a></div>
-
-    </div>   
-</div>
 <body>
-    <script src = "../js/index.js"></script>
+    <div class="header">
+        <div id="asbed">ASBED</div>
+        <div class="middleheader">
+            <div id="header">Home</div>
+            <div id="About">About Us</div>
+            <div id="hostels">Hostels</div>
+            <div id="contact">Contact</div>
+            <div id="faqs">FAQS</div>
+        </div>
+        <div class="logins">
+            <div id="login"><a href="logins\login.html">Login</a></div>
+            <div id="register"><a href="logins\register.html">Register</a></div>
+        </div>
+    </div>
+    <div class="text">Experience a home away from home with Asbed</div>
+    <div class="picture"><img src="assets\hostel1.jpg" alt="hostel1" style ="width:2500px;height: 1300px;"></div>
+    <script src = "js\index.js"></script>
 </body>
 </html>
