@@ -101,3 +101,29 @@ body {
     text-decoration: none;
     color: #666;
   }
+
+  .input-group {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle i {
+    color: #999;
+  }
+  
+  .password-toggle i:hover {
+    color: #333;
+  }
+
+  .fas{
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+  }

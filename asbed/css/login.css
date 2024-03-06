@@ -112,19 +112,3 @@
     color: #666;
   }
   
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  a:active {
-    text-decoration: none;
-  }
